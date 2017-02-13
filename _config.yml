@@ -2,19 +2,18 @@
 
 menu:
   主页: /
-  随笔: /tags/随笔/
-
+  Archives: archives
 # SubNav
 subnav:
-  github: "#"
-  weibo: "#"
-  rss: "#"
-  zhihu: "#"
+  github: "https://github.com/juncaixinchi"
+  mail: "mailto:juncaixinchi111@gmail.com"
+  weixin: "juncaixinchi123"
+  #weibo: "#"
+  #rss: "#"
+  #zhihu: "#"
   #qq: "#"
-  #weixin: "#"
   #jianshu: "#"
   #douban: "#"
-  #mail: "mailto:litten225@qq.com"
   #facebook: "#"
   #google: "#"
   #twitter: "#"
@@ -25,7 +24,9 @@ rss: /atom.xml
 # 是否需要修改 root 路径
 # 如果您的网站存放在子目录中，例如 http://yoursite.com/blog，
 # 请将您的 url 设为 http://yoursite.com/blog 并把 root 设为 /blog/。
-root: 
+
+url: https://juncaixinchi.github.io/Blogs/
+root: /Blogs/ 
 
 # Content
 
@@ -53,10 +54,10 @@ weixin:
 # Miscellaneous
 baidu_analytics: ''
 google_analytics: ''
-favicon: /favicon.png
+favicon: /Blogs/images/favicon.png
 
 #你的头像url
-avatar:
+avatar: /Blogs/images/avatar.png
 
 #是否开启分享
 share_jia: true
@@ -84,7 +85,7 @@ slider:
 #  friends: false
 smart_menu:
   innerArchive: '所有文章'
-  friends: '友链'
+  friends: false
   aboutme: '关于我'
 
 friends:
